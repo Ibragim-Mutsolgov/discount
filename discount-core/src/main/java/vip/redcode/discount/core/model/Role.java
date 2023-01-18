@@ -1,4 +1,5 @@
 package vip.redcode.discount.core.model;
 
-public class Discounts {
+public enum Role {
+    ADMIN, USER
 }

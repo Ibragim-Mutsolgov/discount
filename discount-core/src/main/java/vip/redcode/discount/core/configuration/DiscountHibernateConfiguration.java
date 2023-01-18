@@ -22,10 +22,10 @@ public class DiscountHibernateConfiguration {
 
     @Bean("discountDataSource")
     public DataSource dataSource() {
-        String url = "jdbc:postgresql://172.16.3.6:5432/discount";
+        String url = "jdbc:postgresql://localhost:5432/discount";
         String driver = "org.postgresql.Driver";
-        String username = "nsa";
-        String password = "SSDbuyitCheap2022";
+        String username = "postgres";
+        String password = "postgres";
         return DataSourceBuilder
                 .create()
                 .username(username)
